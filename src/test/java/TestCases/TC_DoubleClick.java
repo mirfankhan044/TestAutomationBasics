@@ -21,5 +21,6 @@ public class TC_DoubleClick {
 
         // Perform the double-click action on the element
         actions.doubleClick(button).perform();
+        System.out.println("done");
     }
 }
